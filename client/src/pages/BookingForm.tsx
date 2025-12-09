@@ -153,11 +153,10 @@ export default function BookingForm() {
                 Cancel
               </Button>
               <Button
-              onClick={() => setShowPopup(false)}
-                // onClick={() => {
-                //   setShowPopup(false);
-                //   window.location.href = "https://www.google.com/";
-                // }}
+                onClick={() => {
+                  setShowPopup(false);
+                  window.location.href = "https://www.google.com/";
+                }}
               >
                 Confirm
               </Button>
