@@ -10,7 +10,8 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   plugins,
-  base: "/ticket_booking_system/",
+  // Set the correct base path for GitHub Pages so assets resolve under the repo name
+  base: "/ticket_booking_system_adv/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
