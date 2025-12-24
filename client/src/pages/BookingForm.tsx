@@ -137,7 +137,7 @@ export default function BookingForm() {
           </div>
         </div>
       )} */}
-      {showPopup && (
+      {/* {showPopup && (
         <div
           className="fixed z-50 w-full max-w-sm px-4"
           style={
@@ -165,7 +165,7 @@ export default function BookingForm() {
             </div>
           </div>
         </div>
-      )}
+      )} */}
       <div className="max-w-2xl mx-auto">
         <Card className="shadow-lg">
           <CardHeader className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-t-lg">
