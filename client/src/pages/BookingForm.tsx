@@ -151,7 +151,6 @@ export default function BookingForm() {
             <div className="mt-6 flex justify-end gap-3">
               <Button variant="outline" onClick={() => {
                   setShowPopup(false);
-                  window.location.href = "https://www.google.com/";
                 }}
               >
                 Cancel
@@ -159,7 +158,6 @@ export default function BookingForm() {
               <Button
                 onClick={() => {
                   setShowPopup(false);
-                  window.location.href = "https://www.google.com/";
                 }}
               >
                 Confirm
